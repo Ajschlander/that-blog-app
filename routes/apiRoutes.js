@@ -2,8 +2,8 @@ var db = require("../models");
 
 module.exports = {
   postExampleApi: async function(req, res) {
-    const dbExample = await db.Example.create(req.body);
-    res.json(dbExample);
+    const dbBlog = await db.Blog.create(req.body);
+    res.json(dbBlog);
   },
   api: function(app) {
     // Get all examples

@@ -1,2 +1,6 @@
 DROP DATABASE IF EXISTS blogify_db;
 CREATE DATABASE blogify_db;
+
+DROP DATABASE IF EXISTS testdb;
+CREATE DATABASE testdb;
+
